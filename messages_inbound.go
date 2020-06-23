@@ -48,6 +48,8 @@ type InboundMessage struct {
 	BlockedReason string
 	// Status - Status of message in your Postmark activity.
 	Status string
+	// StrippedTextReply - Reply message without the original message
+	StrippedTextReply string
 }
 
 // Time returns a parsed time.Time struct
